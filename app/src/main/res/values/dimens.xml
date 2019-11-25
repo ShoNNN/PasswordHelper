@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="margin_result">12dp</dimen>
+    <dimen name="coppy_button_padding">16dp</dimen>
+    <dimen name="result_stroke_width">4dp</dimen>
+    <dimen name="result_corners_radius">8dp</dimen>
+    <dimen name="indicator_width">128dp</dimen>
+    <dimen name="indicator_height">64dp</dimen>
+    <dimen name="password_converter_layout_margin">12dp</dimen>
+    <dimen name="layout_heigth">128dp</dimen>
+</resources>

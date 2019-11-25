@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:text="@string/help_text"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/password_converter_layout_margin"
+                android:layout_marginBottom="@dimen/password_converter_layout_margin"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:background="@drawable/result_background"
+                    android:id="@+id/result_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/layout_heigth"
+                    android:ellipsize="end"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentLeft="true"
+                    android:textAppearance="@style/ResultTextAppearance"
+                    tools:text="@string/password_convert_result_text_view_tools_text"/>
+
+                <ImageButton
+                    android:id="@+id/copy_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/password_converter_layout_margin"
+                    android:src="@drawable/ic_content_copy_black_24dp"
+                    android:padding="@dimen/coppy_button_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/password_convert_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/password_converter_tools_text"/>
+
+            <ImageView
+                android:id="@+id/quality"
+                android:background="@drawable/image_border"
+                android:layout_width="@dimen/indicator_width"
+                android:layout_height="@dimen/indicator_height"
+                android:src="@drawable/quality_indicator"
+                android:layout_gravity="end"
+                android:layout_below="@id/result_text"/>
+
+            <CheckBox
+                android:id="@+id/check_upperCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_upperCase"
+                android:layout_below="@id/password_convert_edit_text"/>
+
+            <CheckBox
+                android:id="@+id/check_digits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/digits_checkbox_label"/>
+
+            <CheckBox
+                android:id="@+id/check_serviceSimbols"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_simbols_checkbox_label"/>
+
+            <SeekBar
+                android:id="@+id/password_length_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/generatedPasswordLength_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password_length_seekbar_label" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/password_converter_layout_margin"
+                android:layout_marginBottom="@dimen/password_converter_layout_margin"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"        >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_heigth"
+                android:background="@drawable/result_background"
+                android:textAppearance="@style/ResultTextAppearance"
+                tools:text="generation result"
+                android:id="@+id/resultPasswordGenerator_textView"/>
+
+                <ImageButton
+                    android:id="@+id/copy_generation_password_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/password_converter_layout_margin"
+                    android:src="@drawable/ic_content_copy_black_24dp"
+                    android:padding="@dimen/coppy_button_padding"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/generatePassword_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password_generate_button_label"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Русские пароли</string>
+    <string name="help_text">Введите пароль в русской раскладке</string>
+    <string name="clipboard_title">Пароль скопирован в буффер обмена</string>
+    <string name="check_upperCase">Заглавные символы</string>
+    <string name="password_converter_tools_text">(русский пароль)</string>
+    <string name="password_convert_result_text_view_tools_text">qQwWeE</string>
+    <string name="digits_checkbox_label">Цифры</string>
+    <string name="service_simbols_checkbox_label">Спецсимволы</string>
+    <string name="password_length_seekbar_label">Длина</string>
+    <string name="password_generate_button_label">генерировать</string>
+
+    <string-array name="qualities">
+        <item>качество</item>
+        <item>ужасный</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>отличный</item>
+    </string-array>
+
+    <string-array name="russian">
+        <item>й</item>
+        <item>ц</item>
+        <item>у</item>
+        <item>к</item>
+        <item>е</item>
+        <item>н</item>
+        <item>г</item>
+        <item>ш</item>
+        <item>щ</item>
+        <item>з</item>
+        <item>х</item>
+        <item>ъ</item>
+        <item>ф</item>
+        <item>ы</item>
+        <item>в</item>
+        <item>а</item>
+        <item>п</item>
+        <item>р</item>
+        <item>о</item>
+        <item>л</item>
+        <item>д</item>
+        <item>ж</item>
+        <item>э</item>
+        <item>ё</item>
+        <item>я</item>
+        <item>ч</item>
+        <item>с</item>
+        <item>м</item>
+        <item>и</item>
+        <item>т</item>
+        <item>ь</item>
+        <item>б</item>
+        <item>ю</item>
+        <item>/</item>
+    </string-array>
+
+    <string-array name="english">
+        <item>q</item>
+        <item>w</item>
+        <item>e</item>
+        <item>r</item>
+        <item>t</item>
+        <item>y</item>
+        <item>u</item>
+        <item>i</item>
+        <item>o</item>
+        <item>p</item>
+        <item>[</item>
+        <item>]</item>
+        <item>a</item>
+        <item>s</item>
+        <item>d</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>;</item>
+        <item>\'</item>
+        <item>\</item>
+        <item>z</item>
+        <item>x</item>
+        <item>c</item>
+        <item>v</item>
+        <item>b</item>
+        <item>n</item>
+        <item>m</item>
+        <item>,</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+
+    <string-array name="englishSimbols">
+        <item>q</item>
+        <item>w</item>
+        <item>e</item>
+        <item>r</item>
+        <item>t</item>
+        <item>y</item>
+        <item>u</item>
+        <item>i</item>
+        <item>o</item>
+        <item>p</item>
+        <item>a</item>
+        <item>s</item>
+        <item>d</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>z</item>
+        <item>x</item>
+        <item>c</item>
+        <item>v</item>
+        <item>b</item>
+        <item>n</item>
+        <item>m</item>
+    </string-array>
+
+    <string-array name="serviceSimbols">
+        <item>!</item>
+        <item>"</item>
+        <item>#</item>
+        <item>$</item>
+        <item>%</item>
+        <item>&amp;</item>
+        <item>\'</item>
+        <item>(</item>
+        <item>)</item>
+        <item>*</item>
+        <item>+</item>
+        <item>,</item>
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+
+    <string-array name="digits">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    
+    <plurals name="plurals_password_length">
+        <item quantity="zero">Длина: 8 символов + %1$d символов</item>
+        <item quantity="one">Длина: 8 символов + %1$d символ</item>
+        <item quantity="two">Длина: 8 символов + %1$d символа</item>
+        <item quantity="few">Длина: 8 символов + %1$d символов</item>
+        <item quantity="many">Длина: 8 символов + %1$d символов</item>
+        <item quantity="other">Длина: 8 символов + %1$d символов</item>
+    </plurals>
+</resources>
